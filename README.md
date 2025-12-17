@@ -1,10 +1,9 @@
-#HARU API (Backend)
+# ⚡ HARU API
 
-The core backend service for HARU, a Progressive Web Application (PWA) designed for dynamic personal finance and expense tracking.
+HARU API: Backend core for a PWA expense tracker. Built with .NET 10 (Clean Arch) and PostgreSQL. It implements the "Golden Rule": dynamic financial periods are initiated *only* when a transaction is marked as 'IsPeriodAnchor=true', moving away from standard calendar months for precise, user-centric expense tracking.
 
-This API implements the crucial "Golden Rule" logic: a new financial period is triggered and started only when a transaction with the 'IsPeriodAnchor' flag set to true is registered. This system uses these anchors to define dynamic financial cycles, moving away from traditional calendar months.
+## 🛠️ Stack Tecnológico
 
-Built with:
-* .NET 10 (C#)
-* Clean Architecture / Modular Monolith Pattern
-* PostgreSQL Database
+* **.NET 10 (C#):** Framework principal.
+* **Arquitectura:** Clean Architecture / Monolito Modular.
+* **Base de Datos:** PostgreSQL.
