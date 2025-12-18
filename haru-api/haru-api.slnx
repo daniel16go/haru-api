@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/module/" />
+  <Folder Name="/src/webapi/">
+    <Project Path="haru-api.csproj" />
+  </Folder>
+  <Folder Name="/test/" />
+</Solution>
